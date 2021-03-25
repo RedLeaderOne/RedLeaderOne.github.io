@@ -37,7 +37,7 @@ body{
     transition: 200ms;
 }
 .intro{
-    background-image: url(https://turi-uzbekistana.ru/images/news/20190411014452.jpg);
+    background-image: url(introbg.jpg);
     height: 10em;
     transition: 1s;
     background-repeat: no-repeat;
