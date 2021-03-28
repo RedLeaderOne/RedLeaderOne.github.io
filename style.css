@@ -8,6 +8,7 @@ body{
 .primary{
     background-color: #f89345;
     margin: 0;
+    margin-top: 0;
 }
 .container{
     margin: 5%;
@@ -94,6 +95,7 @@ body{
 .top{
     background-color: #ac3501;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .topcontent{
     margin-right: 5%;
@@ -152,4 +154,15 @@ body{
     width: 90%;
     margin: 5%;
     padding-top: 0.1%;
+}
+.menu-item{
+    background-color: #121215;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0;
+    color: #eff0ef;
+    font-size: x-large;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
