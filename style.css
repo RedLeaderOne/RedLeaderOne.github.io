@@ -1,8 +1,12 @@
 body{
     font-family: Corbel Light;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    padding-top: 0;
 }
 .primary{
-    background-color: #60B9CE;
+    background-color: #f89345;
     margin: 0;
 }
 .container{
@@ -13,12 +17,12 @@ body{
 
 }
 .nav{
-    background-color: #8D6DD7;
+    background-color: #2b3016;
     width: 100%;
 }
 .nav a{
     text-decoration: none;
-    color: #270672;
+    color: #eff0ef;
     transition: 200ms;
     width: 100%;
     size: 100%;
@@ -27,8 +31,8 @@ body{
     padding-bottom: 5px;
 }
 .nav th a:hover{
-    background-color: #270672;
-    color: #939b62;
+    background-color: #eff0ef;
+    color: #2b3016;
     transition: 200ms;
 }
 .nav th:hover{
@@ -38,7 +42,7 @@ body{
 }
 .intro{
     background-image: url(introbg.jpg);
-    height: 10em;
+    height: 12em;
     transition: 1s;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,23 +57,24 @@ body{
     transition: 1s;
     text-align: right;
     text-align-last: right;
-    background-color: #ffc83c83;
+    background-color: rgba(255, 200, 60, 0.205);
 }
 .front p{
     font-size: x-large;
     font-family: Corbel Light;
     font-style: bold;
     font-weight: bold;
-    color: #312207;
+    color: #eff0ef;
 }
 .front h1{
     font-size: xx-large;
     font-family: Corbel Light;
-    color: #312207;
+    color: #eff0ef;
 }
 .front:hover{
     transition: 1s;
-    background-color: #ffc83ccb;
+    background-color: #ac340180;
+    color: #eff0ef;
 }
 .cooks-left{
     width: 30%;
@@ -87,7 +92,7 @@ body{
     transition: 500ms;
 }
 .top{
-    background-color: #FFC540;
+    background-color: #ac3501;
     margin-top: 0;
 }
 .topcontent{
@@ -103,7 +108,7 @@ body{
 }
 .bottom{
     margin: 0;
-    background-color: #015367;
+    background-color: #121215;
     min-height: 500px;
     margin-bottom: 0;
 }
@@ -141,4 +146,10 @@ body{
 .logo:hover{
     transition: 1s;
     transform: rotateX(360deg) rotateZ(360deg) rotateY(360deg);
+}
+.kitchen{
+    background-color: #121215;
+    width: 90%;
+    margin: 5%;
+    padding-top: 0.1%;
 }

@@ -24,6 +24,12 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .slider__item1 h1{
+    color: #eff0ef;
+  }
+  .slider__item1 p{
+    color: #eff0ef;
+  }
 
   /* стили для кнопок "вперед" и "назад" */
   .slider__control1 {
@@ -111,7 +117,7 @@
   }
 
   .slider__indicators1 li.active {
-    background-color: #A67300;
+    background-color: #ac3501;
   }
 
   /* для стилизации текущего слайдера */
