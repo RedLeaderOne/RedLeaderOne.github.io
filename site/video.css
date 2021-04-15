@@ -1,0 +1,22 @@
+.start-button{
+    top: 50%;
+    text-decoration: none;
+    font-family: Times new roman;
+    font-size: x-large;
+    color: white; background-color: rgba(104, 17, 17, 0.863);
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    align-self: auto;
+    text-align: center;
+    position: fixed;
+    top: 62%;
+    left: 41%;
+    width: 250px;
+    transition: 1s;
+}
+.start-button:hover{
+    transition: 1s;
+    color:rgb(255, 255, 255); background-color: rgb(7, 56, 78);
+    scale: 2;
+}

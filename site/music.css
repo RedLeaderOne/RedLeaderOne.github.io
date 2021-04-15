@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #a1a1a1;
+}
+ul li {
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid black;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.6s;
+    text-align: center;
+    overflow: hidden;
+    filter: opacity(50%);
+}
+ul li:nth-child(1) {
+    background: url(star.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(2) {
+    background: url(bookground.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(3) {
+    background: url(daniel.jpg);
+    background-size: cover;
+    background-position: left;
+}    
+ul li:nth-child(4) {
+        background: url(flashlight.jpg);
+        background-size: cover;
+        background-position: left;
+}
+ul li:nth-child(5) {
+    background: url(sixpence.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(6) {
+    background: url(relaxv.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(7) {
+    background: url(jereve.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(8) {
+    background: url(welcome.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(9) {
+    background: url(relaxground.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul li:nth-child(10) {
+    background: url(home.jpg);
+    background-size: cover;
+    background-position: left;
+}
+ul:hover li {
+    width: 10%;
+}
+ul li:hover{
+    width: 60%;
+    filter: opacity(100%);
+}
+ul li .music{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(76, 106, 117, 0.6);
+    box-sizing: border-box;
+    color: white;
+}
+ul li:hover .music {
+bottom: 0;
+transition: 1s;
+transition-delay: 0.4s;
+}
+ul li .music audio{
+    padding: 20px;  
+}
+.start-button{
+    top: 50%;
+    text-decoration: none;
+    font-family: Times new roman;
+    font-size: x-large;
+    color: white; background-color: rgba(160, 65, 65, 0.863);
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    align-self: flex-start;
+    text-align: center;
+    position: relative;
+    top: 62%;
+    left: 41%;
+    width: 250px;
+    transition: 1s;
+}
+.start-button:hover{
+    transition: 1s;
+    color:rgb(253, 253, 253); background-color: rgb(122, 117, 187);
+    scale: 2;
+}
